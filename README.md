@@ -31,9 +31,9 @@ I'm a **Software Engineer Intern at Modus Operandi** and a **Computer Science st
 
 ## Core technologies
 
-**Languages:** TypeScript · JavaScript · Python · Java · SQL · C++  
-**Applications:** Angular · React · RxJS · GoJS · FastAPI · Node.js · Spring Boot  
-**Data & AI:** PostgreSQL · Supabase · Azure Machine Learning · Ollama · Scapy  
+**Languages:** TypeScript · JavaScript · Python · Java · SQL · C++<br>
+**Applications:** Angular · React · RxJS · GoJS · FastAPI · Node.js · Spring Boot<br>
+**Data & AI:** PostgreSQL · Supabase · Azure Machine Learning · Ollama · Scapy<br>
 **Delivery:** Git · Docker · Bitbucket CI/CD · SonarQube · Keycloak
 
 ## Beyond the code
