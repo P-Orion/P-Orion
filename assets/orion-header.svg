@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="280" viewBox="0 0 1280 280" role="img" aria-labelledby="title desc">
+  <title id="title">Orion Powers — Software Engineer</title>
+  <desc id="desc">A gold Orion constellation on a deep navy background. Applied AI, production applications, and systems.</desc>
+  <defs>
+    <linearGradient id="space" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1528"/><stop offset="1" stop-color="#171e32"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#d7b76e" stop-opacity=".12"/><stop offset="1" stop-color="#d7b76e" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="280" rx="14" fill="url(#space)"/>
+  <ellipse cx="1080" cy="140" rx="250" ry="210" fill="url(#glow)"/>
+  <path d="M44 44h44" stroke="#d7b76e" stroke-width="3"/>
+  <text x="44" y="92" fill="#d7b76e" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="4">ORION POWERS</text>
+  <text x="44" y="157" fill="#f1f4fb" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Software Engineer</text>
+  <text x="46" y="199" fill="#b9c4d9" font-family="Arial, Helvetica, sans-serif" font-size="22">Applied AI · Production applications · Systems</text>
+  <text x="46" y="244" fill="#8b9ab6" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1">FLORIDA TECH CS · DECEMBER 2026</text>
+  <g stroke="#d7b76e" stroke-opacity=".55" stroke-width="1.5" fill="none">
+    <path d="M1010 46 1162 71 1112 133 1078 150 1045 168 996 238 1200 224 1112 133M1010 46 1045 168"/>
+    <ellipse cx="1100" cy="145" rx="164" ry="104" stroke-opacity=".12" transform="rotate(-24 1100 145)"/>
+  </g>
+  <g fill="#dfc58d"><circle cx="1010" cy="46" r="4"/><circle cx="1162" cy="71" r="5"/><circle cx="1112" cy="133" r="4"/><circle cx="1078" cy="150" r="3.5"/><circle cx="1045" cy="168" r="4"/><circle cx="996" cy="238" r="5"/><circle cx="1200" cy="224" r="4"/></g>
+  <g fill="#a8b8d2" opacity=".35"><circle cx="815" cy="51" r="1.5"/><circle cx="881" cy="189" r="1"/><circle cx="938" cy="25" r="1"/><circle cx="1228" cy="113" r="1.5"/><circle cx="1173" cy="254" r="1"/><circle cx="836" cy="244" r="1.5"/><circle cx="939" cy="112" r="1"/></g>
+</svg>
