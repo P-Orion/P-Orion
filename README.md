@@ -24,16 +24,18 @@ I'm a **Software Engineer Intern at Modus Operandi** and a **Computer Science st
 
 | Project | What it demonstrates | Explore |
 | --- | --- | --- |
+| **Receipt Review Workbench** | Trained receipt extraction, actual OCR evaluation on 100 CORD receipts, and a working review application with line-item correction, version checks, and audit history. Image-to-total-field F1: **0.795**. | [Demo](https://p-orion.github.io/receipt-review-ml/) · [Code & measured results](https://github.com/P-Orion/receipt-review-ml) |
+| **FleetSignal** | Remaining-life forecasting on NASA simulated engines, causal sensor features, whole-engine holdouts, and prediction intervals. Validation-selected model: **16.97 cycles RMSE** on 100 test engines with capped targets; age-only baseline: 37.77. | [Fleet explorer](https://p-orion.github.io/fleet-signal-ml/) · [Code & benchmark](https://github.com/P-Orion/fleet-signal-ml) |
+| **LLM Eval Lab** | **640 recorded requests across two local models**, resumable task leases, strict numerical verification, paired uncertainty, and inspectable raw responses. Full experiments pin model/data/source identities. Independent follow-up inspired by BrainBench. | [Experiment browser](https://p-orion.github.io/llm-eval-lab/) · [Code & recorded runs](https://github.com/P-Orion/llm-eval-lab) |
 | **BrainBench** | Local LLM evaluation, mathematical reasoning analysis, and interactive research visualization. Senior design collaboration; co-authored paper **under peer review**. | [Dashboard](https://p-orion.github.io/) · [Repository](https://github.com/P-Orion/P-Orion.github.io) |
 | **LLM Network Analyzer** | Python/FastAPI packet analysis, six heuristic anomaly categories, local Ollama inference, and an Angular dashboard with WebSocket progress. | [Code & walkthrough](https://github.com/P-Orion/LLM-Powered-Network-Analyzer) |
 | **Orion Portfolio** | Responsive web development, custom interaction design, and static-site deployment. | [Live site](https://orionpowers.com) · [Repository](https://github.com/P-Orion/Space-Resume-Site) |
-| **UniPortal** | AI-assisted requirements analysis, data modeling, traceability, and an interactive student-information-system prototype. | [Design & prototype](https://github.com/P-Orion/Requirements-Engineering-Demo) |
 
 ## Core technologies
 
 **Languages:** TypeScript · JavaScript · Python · Java · SQL · C++<br>
 **Applications:** Angular · React · RxJS · GoJS · FastAPI · Node.js · Spring Boot<br>
-**Data & AI:** PostgreSQL · Supabase · Azure Machine Learning · Ollama · Scapy<br>
+**Data & AI:** PostgreSQL · Supabase · Azure Machine Learning · scikit-learn · NumPy · OCR · Ollama · Scapy<br>
 **Delivery:** Git · Docker · Bitbucket CI/CD · SonarQube · Keycloak
 
 ## Beyond the code
