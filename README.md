@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/orion-header.svg?v=2" alt="Orion Powers — Software Engineer. Applied AI, production applications, and systems." width="100%" />
+  <img src="assets/orion-header.svg?v=3" alt="Orion Powers — Software Engineer. Applied AI, production applications, and systems." width="100%" />
 </p>
 
 <p align="center">
