@@ -1,12 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
   <title id="title">Orion Powers — Software Engineer</title>
-  <desc id="desc">Orion the Hunter: raised arm, curved bow, shoulders, three-star belt, sword and feet, plotted from real stellar coordinates in a dark night sky. Orange Betelgeuse marks the upper left shoulder and blue-white Rigel the lower right foot. Orion Powers: applied AI, production applications, and systems.</desc>
+  <desc id="desc">Orion the Hunter: raised arm, curved bow, shoulders, three-star belt and feet, plotted from real stellar coordinates in a dark night sky. Orange Betelgeuse marks the upper left shoulder and blue-white Rigel the lower right foot. Orion Powers: applied AI, production applications, and systems.</desc>
   <!-- Original vector artwork. Stellar positions: Yale Bright Star Catalog, 5th edition,
        Hoffleit and Warren, via NASA HEASARC BSC5P (J2000 coordinates).
        https://heasarc.gsfc.nasa.gov/W3Browse/catalog/bsc5p.html
        Gnomonic projection, center RA 84 degrees / Dec 0 degrees, north up, east left.
        Outline checked against https://iauarchive.eso.org/static/public/constellations/pdf/ORI.pdf
        Brightness, bloom and nebula color are illustrative, not calibrated photometry. -->
+
+  <style>
+    .tw{animation:tw 5.5s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes tw{0%,100%{opacity:1}50%{opacity:.62}}
+    .meteor{opacity:0;animation:meteor 11s linear 2.5s infinite}
+    @keyframes meteor{0%{opacity:0;transform:translate(0,0)}2%{opacity:1}9%{opacity:0;transform:translate(-260px,120px)}100%{opacity:0;transform:translate(-260px,120px)}}
+    .pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes pulse{0%,100%{opacity:.9;transform:scale(1)}50%{opacity:.25;transform:scale(1.9)}}
+    @media (prefers-reduced-motion:reduce){.tw,.pulse,.meteor{animation:none}}
+  </style>
   <defs>
     <linearGradient id="space" x1="0" y1="0" x2="1" y2=".5">
       <stop stop-color="#0d1528"/><stop offset=".62" stop-color="#0a1221"/><stop offset="1" stop-color="#07101e"/>
@@ -22,19 +32,31 @@
       <stop stop-color="#ffecd4" stop-opacity=".75"/><stop offset=".12" stop-color="#ffc48b" stop-opacity=".4"/>
       <stop offset=".4" stop-color="#ff994f" stop-opacity=".13"/><stop offset="1" stop-color="#ff994f" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="nebula">
-      <stop stop-color="#b6d3d6" stop-opacity=".22"/><stop offset=".25" stop-color="#9babbf" stop-opacity=".14"/>
-      <stop offset=".55" stop-color="#9279a2" stop-opacity=".07"/><stop offset="1" stop-color="#9279a2" stop-opacity="0"/>
-    </radialGradient>
     <linearGradient id="field-fade">
       <stop offset=".60" stop-color="#000"/><stop offset=".71" stop-color="#fff"/>
     </linearGradient>
     <mask id="sky-mask"><rect width="1280" height="380" fill="url(#field-fade)"/></mask>
     <clipPath id="banner"><rect width="1280" height="380" rx="14"/></clipPath>
     <filter id="soft-star" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="1.1"/></filter>
+
+    <radialGradient id="gold-glow">
+      <stop stop-color="#d7b76e" stop-opacity=".10"/><stop offset="1" stop-color="#d7b76e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haze">
+      <stop stop-color="#3b5d93" stop-opacity=".16"/><stop offset=".5" stop-color="#4a3d74" stop-opacity=".06"/><stop offset="1" stop-color="#4a3d74" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="meteor-trail" gradientUnits="userSpaceOnUse" x1="900" y1="0" x2="990" y2="0">
+      <stop stop-color="#ffffff" stop-opacity=".9"/><stop offset="1" stop-color="#b9d9ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule" gradientUnits="userSpaceOnUse" x1="44" y1="0" x2="100" y2="0">
+      <stop offset=".4" stop-color="#d7b76e"/><stop offset="1" stop-color="#d7b76e" stop-opacity=".15"/>
+    </linearGradient>
   </defs>
   <g clip-path="url(#banner)">
     <rect width="1280" height="380" fill="url(#space)"/>
+    <ellipse cx="260" cy="190" rx="340" ry="190" fill="url(#gold-glow)"/>
+    <ellipse cx="640" cy="40" rx="520" ry="160" fill="url(#haze)"/>
+    <g><circle cx="514.7" cy="37.8" r="0.61" fill="#c9dcf5" opacity="0.19"/><circle cx="73.1" cy="44.3" r="0.57" fill="#c9dcf5" opacity="0.29"/><circle cx="762.0" cy="28.6" r="0.74" fill="#c9dcf5" opacity="0.18"/><circle cx="129.6" cy="53.9" r="0.52" fill="#c9dcf5" opacity="0.28"/><circle cx="436.3" cy="34.4" r="0.42" fill="#c9dcf5" opacity="0.16"/><circle cx="764.9" cy="54.0" r="0.57" fill="#c9dcf5" opacity="0.27"/><circle cx="685.4" cy="123.7" r="0.68" fill="#c9dcf5" opacity="0.24"/><circle cx="658.4" cy="348.3" r="0.59" fill="#c9dcf5" opacity="0.25"/><circle cx="511.8" cy="365.5" r="0.73" fill="#c9dcf5" opacity="0.18"/><circle cx="147.7" cy="53.7" r="0.42" fill="#c9dcf5" opacity="0.27"/><circle cx="642.7" cy="319.6" r="0.51" fill="#c9dcf5" opacity="0.20"/><circle cx="747.9" cy="65.7" r="0.47" fill="#c9dcf5" opacity="0.17"/><circle cx="23.1" cy="161.1" r="0.55" fill="#c9dcf5" opacity="0.23"/><circle cx="744.4" cy="257.8" r="0.61" fill="#c9dcf5" opacity="0.24"/><circle cx="533.9" cy="31.2" r="0.76" fill="#c9dcf5" opacity="0.28"/><circle cx="684.6" cy="296.0" r="0.56" fill="#c9dcf5" opacity="0.20"/></g>
     <ellipse cx="1080" cy="195" rx="225" ry="210" fill="url(#sky-depth)"/>
     <g mask="url(#sky-mask)">
     <circle cx="1001.88" cy="359.29" r="0.61" fill="#b9d9ff" opacity="0.32"/>
@@ -191,87 +213,62 @@
     <path d="M1192.84 171.03L1189.10 185.81"/>
     <path d="M1189.10 185.81L1180.82 219.93"/>
     <path d="M1180.82 219.93L1169.19 227.75"/>
-    <path d="M1069.44 258.62L1071.61 296.92"/>
-    <path d="M1071.61 296.92L1071.90 302.76"/>
-    <path d="M1071.90 302.76L1071.49 308.28"/>
     </g>
-    <ellipse cx="1071.88" cy="302.77" rx="13" ry="10" fill="url(#nebula)" transform="rotate(-24 1071.88 302.77)"/>
-  <g id="star-2061" aria-label="Betelgeuse">
+  <g id="star-2061" class="tw" style="animation-delay:0s" aria-label="Betelgeuse">
     <title>Betelgeuse</title>
     <circle cx="1019.56" cy="167.52" r="14.75" fill="url(#warm-star)"/>
     <circle cx="1019.56" cy="167.52" r="6.70" fill="#ffc18b" opacity=".13" filter="url(#soft-star)"/>
     <circle cx="1019.56" cy="167.52" r="3.52" fill="#ffe6c6"/>
     <circle cx="1019.56" cy="167.52" r="1.48" fill="#ffffff"/>
   </g>
-  <g id="star-1790" aria-label="Bellatrix">
+  <g id="star-1790" class="tw" style="animation-delay:1.7s" aria-label="Bellatrix">
     <title>Bellatrix</title>
     <circle cx="1098.55" cy="178.98" r="11.67" fill="url(#cool-star)"/>
     <circle cx="1098.55" cy="178.98" r="5.51" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
     <circle cx="1098.55" cy="178.98" r="2.90" fill="#f3f8ff"/>
     <circle cx="1098.55" cy="178.98" r="1.22" fill="#ffffff"/>
   </g>
-  <g id="star-1713" aria-label="Rigel">
+  <g id="star-1713" class="tw" style="animation-delay:3.1s" aria-label="Rigel">
     <title>Rigel</title>
     <circle cx="1126.50" cy="333.09" r="15.78" fill="url(#cool-star)"/>
     <circle cx="1126.50" cy="333.09" r="7.09" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
     <circle cx="1126.50" cy="333.09" r="3.73" fill="#f3f8ff"/>
     <circle cx="1126.50" cy="333.09" r="1.57" fill="#ffffff"/>
   </g>
-  <g id="star-2004" aria-label="Saiph">
+  <g id="star-2004" class="tw" style="animation-delay:2.3s" aria-label="Saiph">
     <title>Saiph</title>
     <circle cx="1039.11" cy="348.64" r="10.54" fill="url(#cool-star)"/>
     <circle cx="1039.11" cy="348.64" r="5.07" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
     <circle cx="1039.11" cy="348.64" r="2.67" fill="#f3f8ff"/>
     <circle cx="1039.11" cy="348.64" r="1.12" fill="#ffffff"/>
   </g>
-  <g id="star-1948" aria-label="Alnitak">
+  <g id="star-1948" class="tw" style="animation-delay:0.8s" aria-label="Alnitak">
     <title>Alnitak</title>
     <circle cx="1057.51" cy="266.41" r="10.57" fill="url(#cool-star)"/>
     <circle cx="1057.51" cy="266.41" r="5.08" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
     <circle cx="1057.51" cy="266.41" r="2.67" fill="#f3f8ff"/>
     <circle cx="1057.51" cy="266.41" r="1.12" fill="#ffffff"/>
   </g>
-  <g id="star-1903" aria-label="Alnilam">
+  <g id="star-1903" class="tw" style="animation-delay:1.2s" aria-label="Alnilam">
     <title>Alnilam</title>
     <circle cx="1069.44" cy="258.62" r="11.51" fill="url(#cool-star)"/>
     <circle cx="1069.44" cy="258.62" r="5.44" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
     <circle cx="1069.44" cy="258.62" r="2.86" fill="#f3f8ff"/>
     <circle cx="1069.44" cy="258.62" r="1.20" fill="#ffffff"/>
   </g>
-  <g id="star-1852" aria-label="Mintaka">
+  <g id="star-1852" class="tw" style="animation-delay:1.6s" aria-label="Mintaka">
     <title>Mintaka</title>
     <circle cx="1080.48" cy="249.14" r="10.08" fill="url(#cool-star)"/>
     <circle cx="1080.48" cy="249.14" r="4.89" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
     <circle cx="1080.48" cy="249.14" r="2.57" fill="#f3f8ff"/>
     <circle cx="1080.48" cy="249.14" r="1.08" fill="#ffffff"/>
   </g>
-  <g id="star-1879" aria-label="Meissa">
+  <g id="star-1879" class="tw" style="animation-delay:4.0s" aria-label="Meissa">
     <title>Meissa</title>
     <circle cx="1072.26" cy="140.63" r="8.00" fill="url(#cool-star)"/>
     <circle cx="1072.26" cy="140.63" r="3.52" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
     <circle cx="1072.26" cy="140.63" r="1.85" fill="#f3f8ff"/>
     <circle cx="1072.26" cy="140.63" r="0.78" fill="#ffffff"/>
-  </g>
-  <g id="star-1892" aria-label="42 Orionis">
-    <title>42 Orionis</title>
-    <circle cx="1071.61" cy="296.92" r="8.00" fill="url(#cool-star)"/>
-    <circle cx="1071.61" cy="296.92" r="2.42" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
-    <circle cx="1071.61" cy="296.92" r="1.28" fill="#f3f8ff"/>
-    <circle cx="1071.61" cy="296.92" r="0.54" fill="#ffffff"/>
-  </g>
-  <g id="star-1899" aria-label="Iota Orionis">
-    <title>Iota Orionis</title>
-    <circle cx="1071.49" cy="308.28" r="8.62" fill="url(#cool-star)"/>
-    <circle cx="1071.49" cy="308.28" r="4.33" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
-    <circle cx="1071.49" cy="308.28" r="2.28" fill="#f3f8ff"/>
-    <circle cx="1071.49" cy="308.28" r="0.96" fill="#ffffff"/>
-  </g>
-  <g id="star-1895" aria-label="Theta Orionis">
-    <title>Theta Orionis</title>
-    <circle cx="1071.90" cy="302.76" r="8.00" fill="url(#cool-star)"/>
-    <circle cx="1071.90" cy="302.76" r="2.09" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
-    <circle cx="1071.90" cy="302.76" r="1.10" fill="#f3f8ff"/>
-    <circle cx="1071.90" cy="302.76" r="0.46" fill="#ffffff"/>
   </g>
   <g id="star-2124" aria-label="Mu Orionis">
     <title>Mu Orionis</title>
@@ -364,10 +361,19 @@
     <circle cx="1118.39" cy="318.44" r="1.82" fill="#f3f8ff"/>
     <circle cx="1118.39" cy="318.44" r="0.76" fill="#ffffff"/>
   </g>
-    <path d="M44 80h44" stroke="#d7b76e" stroke-width="3"/>
-    <text x="44" y="129" fill="#d7b76e" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="4">ORION POWERS</text>
-    <text x="44" y="197" fill="#f1f4fb" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">Software Engineer</text>
-    <text x="46" y="242" fill="#b9c4d9" font-family="Arial, Helvetica, sans-serif" font-size="22">Applied AI · Production applications · Systems</text>
-    <text x="46" y="307" fill="#8b9ab6" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1">FLORIDA TECH CS · DECEMBER 2026</text>
+
+    <g class="meteor"><path d="M900 40h90" stroke="url(#meteor-trail)" stroke-width="1.4" stroke-linecap="round" transform="rotate(-24.8 900 40)"/><circle cx="900" cy="40" r="1.3" fill="#fff"/></g>
+    <path d="M44 74h56" stroke="url(#rule)" stroke-width="3" stroke-linecap="round"/>
+    <text x="44" y="118" fill="#d7b76e" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="5">ORION POWERS</text>
+    <text x="42" y="186" fill="#f4f6fb" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-.5">Software Engineer</text>
+    <text x="45" y="230" fill="#b9c4d9" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22">Applied AI <tspan fill="#d7b76e">·</tspan> Production applications <tspan fill="#d7b76e">·</tspan> Systems</text>
+    <text x="45" y="279" fill="#8b9ab6" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13.5" letter-spacing="1.6">FLORIDA TECH · B.S. COMPUTER SCIENCE · DEC 2026</text>
+    <g transform="translate(44 298)">
+      <rect width="318" height="30" rx="15" fill="#d7b76e" fill-opacity=".08" stroke="#d7b76e" stroke-opacity=".45"/>
+      <circle class="pulse" cx="17" cy="15" r="4" fill="#7fe3a4"/>
+      <circle cx="17" cy="15" r="3.2" fill="#7fe3a4"/>
+      <text x="31" y="19.6" fill="#e9d9b0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" letter-spacing="1.4" textLength="272" lengthAdjust="spacingAndGlyphs">OPEN TO FULL-TIME ROLES · JAN 2027</text>
+    </g>
   </g>
+  <rect x=".5" y=".5" width="1279" height="379" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity=".07"/>
 </svg>
