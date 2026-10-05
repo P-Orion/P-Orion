@@ -205,8 +205,7 @@
     <path d="M1019.56 167.52L1000.44 143.05"/>
     <path d="M1000.44 143.05L986.60 85.89"/>
     <path d="M986.60 85.89L1021.64 23.03"/>
-    <path d="M986.60 85.89L974.88 91.78"/>
-    <path d="M974.88 91.78L996.35 23.74"/>
+    <path d="M1021.64 23.03L996.35 23.74"/>
     <path d="M1098.55 178.98L1192.84 171.03"/>
     <path d="M1179.07 136.53L1190.73 149.91"/>
     <path d="M1190.73 149.91L1192.84 171.03"/>
@@ -283,13 +282,6 @@
     <circle cx="986.60" cy="85.89" r="2.60" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
     <circle cx="986.60" cy="85.89" r="1.37" fill="#f3f8ff"/>
     <circle cx="986.60" cy="85.89" r="0.57" fill="#ffffff"/>
-  </g>
-  <g id="star-2199" aria-label="Xi Orionis">
-    <title>Xi Orionis</title>
-    <circle cx="974.88" cy="91.78" r="8.00" fill="url(#cool-star)"/>
-    <circle cx="974.88" cy="91.78" r="2.54" fill="#b9d9ff" opacity=".13" filter="url(#soft-star)"/>
-    <circle cx="974.88" cy="91.78" r="1.34" fill="#f3f8ff"/>
-    <circle cx="974.88" cy="91.78" r="0.56" fill="#ffffff"/>
   </g>
   <g id="star-2047" aria-label="Chi1 Orionis">
     <title>Chi1 Orionis</title>
