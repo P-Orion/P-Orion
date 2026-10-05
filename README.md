@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://orionpowers.com"><strong>Portfolio</strong></a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/orion-powers/"><strong>LinkedIn</strong></a> &nbsp;·&nbsp;
-  <a href="mailto:orionthanhpowers@gmail.com"><strong>Contact</strong></a>
+  <a href="https://orionpowers.com/#ax-contact"><strong>Contact</strong></a>
 </p>
 
 I build interfaces and applications that make complex workflows easier to understand—from intelligence analysis and logistics to local AI evaluation and document processing.
